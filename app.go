@@ -1,18 +1,16 @@
 package main
 
 import (
-	"log"
 	"strconv"
 	"strings"
 )
 
 func main() {
-	output := Slice("2 4 1 2 5 3-3 2 3 1")
+	//output := Slice("2 4 1 2 5 3-3 2 3 1")
 	//output := Slice("1 1-1 1")
 	//output := Slice("2 2 2-10 10 10")
 	//output := Slice("1 1-100")
-	log.Println(output)
-
+	//log.Println(output)
 }
 
 func Slice(data string) int {

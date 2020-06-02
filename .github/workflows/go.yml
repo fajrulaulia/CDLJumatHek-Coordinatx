@@ -24,7 +24,7 @@ jobs:
             dep ensure
         fi
     - name: Test Dulu
-      run: go test.
+      run: go test
 
 
     - name: Build
